@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+</head>
+<body>
+    <h1><strong>Criar Conta</strong></h1>
+    <form>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" minlength="10" required>
+        </div>
+
+        <p></p>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <p></p>
+
+        <div>
+            <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" required>
+        </div>
+
+        <p></p>
+
+        <div>
+                <label for="cidade">Cidade de Origem</label>
+            <select name="cidade" id="cidade" required>
+                <option value="">--Selecione--</option>
+                <option value="saomateus">São Mateus</option>
+                <option value="pinheiros">Pinheiros</option>
+                <option value="novavenecia">Nova Venécia</option>
+            </select>
+        </div>
+
+        <p></p>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" minlength="9" required>
+        </div>
+
+        <p></p>
+
+        <div>
+            <label>
+                <input type="checkbox" required name="checkbox">
+                Aceito os termos
+            </label>
+        </div>
+
+        <p></p>
+
+        <div>
+            <button type="submit"><strong>Criar Conta</strong></button>
+        </div>
+
+    </form>
+</body>
+</html>
