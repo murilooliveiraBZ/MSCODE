@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buginenses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Buginenses</h1>
+            <ul>
+                <li><a href="site.html" target="_self">Início</a></li>
+
+                <li><a href="categorias.html" target="_self" rel="next">Categorias</a></li>
+
+                <li><a href="produtos.html" target="_self" rel="next">Produtos</a></li>
+
+                <li><a href="fale_conosco.html" target="_blank" rel="next">Fale Conosco</a></li>
+
+                <form>
+                    <label for="busca">Digite o que procura:</label>
+                    <input type="text" name="busca" id="busca" required>
+                    <button type="submit">Buscar</button>
+                </form>
+            </ul>
+        </header>
+        <hr>
+    </div>
+
+    <div>
+        <main>
+            <h2>Uma loja de bugigangas ÚTEIS DE VERDADE</h2>
+
+            <picture>
+                <source media="(max-width: 750px)" srcset="Imagens/logo_principal-p.jpeg" type="image/jpeg">
+                <source media="(max-width: 1050px)" srcset="Imagens/logo_principal-m.jpeg" type="image/jpeg">
+                <img src="Imagens/logo_principal.jpeg" alt="">
+            </picture>
+
+            <section>
+                <article>
+                    <h2>Conheça a Buginenses</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis eligendi culpa quo atque vitae dolorem non repellat magni inventore, minus corporis distinctio. Cum eum, vero quae aliquam dolores temporibus minus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quibusdam ratione suscipit voluptatem? Officiis, sunt dolor quam omnis atque tempora beatae id, quis eos voluptate optio enim voluptatum error ipsam?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit magnam unde corporis reiciendis, est cumque dicta dolore odio sequi tempora quisquam expedita. Rem deleniti facere laboriosam perferendis porro ad beatae.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi id numquam tempore quaerat quibusdam natus aliquid facilis nam, asperiores voluptates et saepe inventore eum consectetur maxime cumque iusto? Maxime?
+                        </p>
+                </article>
+                <hr>
+                    <h2>Categorias</h2>
+                    <ul>
+                        <li>Utensílios Domésticos</li>
+                        <li>Eletrônicos</li>
+                        <li>Livros</li>
+                        <li>Vídeo Game</li>
+                        <li>Roupas</li>
+                    </ul>
+                <hr>
+
+                <h2>Produtos Disponíveis</h2>
+                <table>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                        <th>Imagem</th>
+                    </tr>
+
+                    <tr>
+                       <td>Conjunto Talheres Diversos</td>
+                       <td>45,99</td>
+                       <td><img src="Imagens/produto.jpeg" alt="conjunto_talheres"></td> 
+                    </tr>
+
+                    <tr>
+                        <td>Xbox Series S</td>
+                        <td>1234,90</td>
+                        <td><img src="Imagens/produto.jpeg" alt="xbox_s"></td>
+                    </tr>
+
+                    <tr>
+                        <td>1984 por Orwell</td>
+                        <td>19,99</td>
+                        <td><img src="Imagens/produto.jpeg" alt="livro_1984"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Conjunto Roupa + Calça Feminina Hering</td>
+                        <td>459,00</td>
+                        <td><img src="Imagens/produto.jpeg" alt="conjunto_hering"></td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+
+            <section>
+                <h3>Fale Conosco</h3>
+                <form action="#" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required minlength="10">
+                    </div><br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Digite seu endereço de e-mail">
+                    </div><br>
+                    
+                    <div>
+                        <label for="assunto">Assunto</label>
+                        <select name="assunto" id="assunto" required>
+                            <option value="">Selecione o assunto</option>
+                            <option value="reclamar">Fazer uma reclamação</option>
+                            <option value="devolucao">Devolver um produto</option>
+                            <option value="problemas_entrega">Problemas com a entrega</option>
+                            <option value="problemas_financeiros">Problemas com estorno/pagamento</option>
+                        </select>
+                    </div>
+                    <br>
+                    
+                    <label for="comentario">Mensagem:</label><br>
+                    <textarea name="comentario" id="comentario" rows="10" placeholder="Digite aqui sua mensagem" required></textarea><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section><br>
+        </main>
+        <hr>
+        <footer>
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href="https://instagram.com.br">Instagram</a></li>
+                <li><a href="https://x.com">X</a></li>
+                <li><a href="https://linkedin.com.br">Linkedin</a></li>
+            </ul>
+            <p>&reg; Businenses. Todos os direitos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
