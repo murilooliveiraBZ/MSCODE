@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <form>
+            <div>
+                <label for="number1">1 número</label><br>
+                <input type="number" name="number1" id="number1" required>
+            </div>
+            <div>
+                <label for="number2">2 número</label><br>
+                <input type="number" name="number2" id="number2" required>
+            </div>
+        </form>
+        <div>
+            <p>Operação</p>
+            <button type="button" id="btnSoma">+</button>
+            <button type="button" id="btnSubtrair">-</button>
+        </div>
+        <div>
+                <label for="txtResultado">Resultado</label><br>
+                <input type="number" name="txtResultado" id="txtResultado" disabled>
+        </div>
+    </div>
+    <script src="teste.js"></script>
+</body>
+</html>
